@@ -3,7 +3,7 @@
 body {
    margin:0;
    padding: 0;
-   font-family: 'Roboto', serif;
+   font-family: 'Ubuntu', sans-serif;
    text-align:center;
 }
 
@@ -86,4 +86,12 @@ hr{
 
 #404{
   font-family: 'Nunito', sans-serif;
+}
+
+#main-footer a{
+  color:black;
+}
+
+#moon a{
+  width:50%;
 }
