@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>Updates - Forest Grove Pixelmon</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>How to install - Forest Grove Pixelmon</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet">
 </head>
 <body>
-<div id='nav'>
+    <div id='nav'>
     <img src="img/fgsmp.jpg" id="logo" length="265"  />
 
  <nav>   
    <ul class="nav">
       <li><a href="https://forestgrove.moonqii.xyz/">HOME</a></li>
-      <li><a href="#">HOW TO INSTALL</a></li>
+      <li><a href="howto">HOW TO INSTALL</a></li>
       <li><a href="season-info">SEASONAL INFO</a></li>
       <li><a href="updates">UPDATE LOG</a></li>
       <li><a href="https://moonqii.xyz" target="_blank">MOONQII WEBSITE</a></li>
@@ -19,47 +21,116 @@
 </nav>
   <div class="clear"></div>
   </div>
-<h1>How-to</h1>
-<hr>
-<section id="howto">
-        <p>Need to know what we need to have you on the server? Follow this guide!</p>
-                <p><strong>#1 - Install Minecraft Forge</strong></p>
-                <h1>Prequisites</h1>
-                        <p>You need to get a 1.12.2 install (Preferrably the latest version of Forge) from <a href="http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html" target="_blank">here.</a> You will also need the <a href="https://java.com">JRE (Java Runtime Environment)</a> to run the jar to install Forge.<br> Keep in mind, you will need to run 1.12.2 before trying to install Forge - not doing so will lead to an error.<br>
-                When you have it installed and ready, you should have a new Forge profile added to the launcher. Click that and then launch it.<br>
-                Once you launch it, close Minecraft and then follow the instructions below.</p><br>
+<h2 id="welcome">Thanks for joining the Forest Grove SMP!</h2>
+    <hr>
+        <p>This read-me will get you started with installing the modpack to your mods folder.</p>
+    <h2>1. Install JAVA</h2>
+        <p>Minecraft has abandoned requiring Java since 1.13 and after (so close), but since we're on 1.12.2, we need it.<br>
+            Navigate to the <a href="https://java.com" target="_blank">Java website</a> and install it from there.</p><br>
+            <img src="http://fg.moonqii.xyz/img/readme/gifs/java-download.gif">
+    <hr>
+    <h2>2. Install Minecraft Forge</h2>
+        <p>You're going to need Forge to install mods.<br>
+            Navigate to the <a href="http://files.minecraftforge.net" target="_blank">Forge website</a> and select "Installer" under Recommended.<br>
+            <strong>WARNING!</strong> Click SKIP in the top right after the countdown. Do not click anything else!</p>
+    <hr>
+    <h2>3. Start Minecraft 1.12.2 & Fully install Forge</h2>
+        <p>If you have not started Minecraft 1.12.2 previously (Vanilla), then you need to do so.<br>
+            Head to the Minecraft Launcher, click Installations, New, then find 1.12.2 and save. Click play, and the game should launch.<br>
+            Once you're at the main menu, you can just close out as you've created what Forge needs. Run the JAR file you downloaded from step 2 and install <strong>Client.</strong></p>
+        <img src="http://fg.moonqii.xyz/img/readme/gifs/forge-install.gif">
+    <hr>
+    <h2>4. Install Mods</h2>
+        <p>On Windows, if you press the Windows key + R, a box called "Run" should come up.<br>
+            In this box, type "%appdata%" (without quotes) and you should be brought to the Roaming folder.<br>
+            Go into <strong>.minecraft/mods</strong>, then drag all of the mods from forest-grove-latest.zip/mods to .minecraft/mods.</p>
+        <img src="http://fg.moonqii.xyz/img/readme/gifs/run.gif">
+    <hr>
+    <h2>5. Play!</h2>
+        <p>You have successfully installed needed mods to play!</p>
+    <hr>
+    <h2>Known Issues</h2>
+        <h3>Crashes upon Useful Backpacks Init</h3>
+            <p>Players may experience crashes upon booting the game due to Error Code -1. We found that this is a dependency error for Useful Backpacks.<br>
+                Contact Awex through a ticket and send your latest <strong>Client</strong> report from .minecraft/crash-reports.</p>
+        <h3>Pixelmon "Version NULL" Issue</h3>
+            <p>This error happens because you installed Pixelmon incorrectly. If you have JAR components (ex. "assets") in your mods folder, you extracted the Pixelmon mod.<br>
+                Go back into the archive and <strong>only</strong> drag the Pixelmon Jar out, do not extract it as it will not load.</p>
+        <p>You can find all issues on our <a href="https://fg.moonqii.xyz/issue-tracker" target="_blank">issue tracker.</a></p>
 
-                <h1>#2a - Adding mods on Windows</h1>
+<!-- Footer -->
 
-                <p>When you've <a href="thankyou" target="_blank">downloaded the modpack</a>, press your Windows key + R to open the run dialog.<br>
-                In this box, type "%appdata%" (without quotations.) This will open a "Roaming" folder. Find .minecraft and then mods.<br><hr>
-                <strong>WARNING!</strong><br>.jar files might be coming up as WinRar Archives, <strong>DO NOT EXTRACT THEM!</strong><br>
-                Extracting the jar file will end up not letting MC detect your mod - open "moonqii-smp-latest.zip", and put all the files in the mods archive into your folder without opening them.</p>
-
-                <h1>#2b - Adding mods on macOSX</h1>
-                <p>Still finding out how to do this entirely - Half guide as of now.<br>
-                Download the .jar file the exact same way as Windows.<br>
-                Upon opening the file, you may notice Apple has blocked it because it's unsigned.<br>
-                Head to Preferences - Security, there should be a note that says the .jar was blocked. Click open anyway and proceed with install.<br>
-                After that, you will have successfully installed Forge!</p>
-        <hr>
-                <p>Should you require further assistance, tag Developer in the Discord server, we'd be happy to help!</p>
-</section>
-
-                        <footer id="main-footer">
-                        <p>&copy; Team Moonqii, All Rights Reserved.<br>
-                                Website designed by <a href="https://twitter.com/_awexx" target="_blank">Alex Frantz.</a></p>
-                        <a href="https://twitter.com/fogsmp" target="_blank">
-                                <img src="img/social-icons/twitter-gray.png">
-                        </a>
-                        <a href="https://instagram.com/moonqii" target="_blank">
-                                <img src="img/social-icons/instagram-gray.png">
-                        </a>
-                        <a href="https://youtube.com/c/moonqii" target="_blank">
-                                <img src="img/social-icons/gray-youtube.png">
-                        </a>
-                        <a href="discord" target="_blank">
-                                <img src="img/social-icons/discord-gray.png">
-                </footer>
-</body>
+        <footer id="main-footer">
+    <p>&copy; 2020 The Forest Grove Team, All Rights Reserved<br>
+    Website coded and designed by Alex Frantz.</p>
+                <ul class="icons">
+                <a href="https://twitter.com/moonqii" target="_blank">
+                <img src="http://moonqii.xyz/img/social-icons/twitter-gray.png">
+                </a>
+                <a href="https://instagram.com/moonqii" target="_blank">
+                <img src="http://moonqii.xyz/img/social-icons/instagram-gray.png">
+                </a>
+                <a href="https://youtube.com/c/moonqii" target="_blank">
+                <img src="http://moonqii.xyz/img/social-icons/gray-youtube.png">
+                </a>
+                <a href="https://fg.moonqii.xyz/discord" target="_blank">
+                <img src="http://moonqii.xyz/img/social-icons/discord-gray.png">
+                </a>
 </html>
+
+<style type="text/css">
+body{
+    font-family: 'Padauk', sans-serif;
+    text-align:center;
+}
+
+body h2{
+    color:gray;
+}
+
+#welcome{
+    text-align:center;
+    color:gray;
+}
+
+hr{
+    width:50%;
+    margin:0 auto;
+}
+
+p{
+    text-align:center;
+}
+
+h1{
+    text-align:center;
+}
+
+#main-footer{
+    background:#333;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.icons{
+    display: block;
+    margin-left:auto;
+    margin-right:790px;
+    width:15%;
+    padding-top:5px;
+}
+
+.center{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+    padding-top:30px;
+}
+
+.icons a{
+    color:#333;
+}
+</style>
